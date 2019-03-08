@@ -1150,7 +1150,7 @@ BACKUP_LOCAL_PATH=${backupLocalPath}
 CLUSTER_ADMIN_EMAIL=${clusterAdminEmail}
 AZURE_CLI_VERSION=${azureCliVersion}
 AZURE_STORAGEACCOUNT_CONNECTIONSTRING=\"${storage_connection_string}\"
-is_azure_mysql_db=\"true\"
+is_azure_mysql_db=\"false\"
 target_databases=\"analytics-api credentials dashboard discovery ecommerce edx_notes_api edxapp edxapp_csmh journals programs reports veda xqueue\"
 EOF"
 
