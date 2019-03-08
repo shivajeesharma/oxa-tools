@@ -24,10 +24,10 @@
             "value": "Standard_D2_v2"
         },
         "adminUsername": {
-            "value": "lexoxaadmin"
+            "value": "superuser"
         },
         "adminPublicKey": {
-            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCj0GHnhX8L8cPtCFhNPTClvDMzeMsB+ys5uMaqFgTa2mrWSUBsbsVwK91H6mwtrKRJf42Ry5DVYKLPf8XSz22v5iyZ1DrbkGJcmHRWEBFA47habQFg+eXBUSENUf1cMOh4RwkN1olCLpsdeKrF0Rj6k3ZFODUJIf+v5HYKFkj+8iVdQh0wgnPVxneqIKcbqNLO8ymmAiTT+fYaubPWzJmq8nUKoNZRiPXSSAwHHtNouR4vvPtOU7je2TxzoYIcM/Ja6YycBx44W+A7ygY5/hmij4Byhm20MLZLoBLX2AMp8horzqWhdF/wvFMhv8FTTzlWpwhuEpbd2M4B6Tylajm8lwA9u/9MO6lEbqnX/XH/KS9hPZdKvqXgbPTzM265Aea0LPXHDdF0f9AID6Xl3grHrtkKFGMzbgqFtF9nd51kwDTZr2b1zIVWb6XxDXXVhX4XqWniCT8xEzuGyMp4/mhaghRDhT45Alu6Frv6d5+IjeabBSXOwwe+8NpTDc0+hxM/MYiE4K6EHpPqwxOoRJcZFrjdSxQGGrCD+bLJbGfI8tn96Wq4zBBUMp+iX1iXXNScgqUAaSoNKEH8ag177oOvtH3AsB/b7Nm/eUIr/WYfYESlft1M1h25Lvu6QgFyqJlwdXSPCiIYbR6nK6WI2Zz6cActCLoJaN7IPw6RLeY+tw== admin@contoso.com"
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC/SmafiKA32R1t7mKz3cxgeBl0rMXPaJ5tgNnbI+0yLOJbZFic7Bm6ONiHrpk9/z0avT9+ILM/ETPd6vlByAdJ1H2qc9Is18J+whO3jB2E4kXjhOlRqr6uVtjW+G/FAnhE2cKcgux2AnyUdULAvhq7tNiQRKIcVRBOGf52BdyNMoczVdTUMcYq4vEhCzcUoedocNxDeHcBqmPKPDFS/XIpByJ1G/wxbOIJ21OO/yw2XRLWB1D9IPPavUT95gZUIOc3qaaLVATZk2ZBkQCOElb7Mt/0TI2+/RnY3jYC20bbxBBdmeC1dhGX6G7cnXB5eWxs6ncxCzt+51OKpIQ3c5znW089Yp+PvM/ze/UFpaAxhX+lP3HJrSMpgBxorsXxweVR1gHX7GlIznlNEjUBa7chLxcWth6Sj9BFumhxfK9lCq5qRxnhoZLiP7YaU53a3fGsv9/gb6Nf9JJnPkcDO73ErfskXKOqY+q2ML9YnX6aemQU1DT+LT3F6VIH0xG0ameTdM3ojaOtPMRw0IsAXufqn5BkrKkzKQRApC+MzupQYcKc81TDqsI5Eda4SZEEmBZnC+SgO4ea3xXO2amK7g+dCD0KSa46ssULMvnppKgE1H6z1x/KdL4HPfUabRzK5c/A6yxbSc1xGGesi79TDlev5WcZgbWKDfNV3T+GuwX+Lw== superuser@DESKTOP-F1R2L3O"
         },
         "mongoServerAdminUserName": {
             "value": "oxamongoadmin"
@@ -69,7 +69,7 @@
             "value": 1
         },
         "autoScaleCapacityMaximum": {
-            "value": 1
+            "value": 3
         },
         "autoScaleCapacityMinimum": {
             "value": 1
@@ -102,13 +102,13 @@
             "value": "{GITHUBBRANCH}"
         },
         "edxThemeGithubAccountName": {
-            "value": "microsoft"
+            "value": "shivajeesharma"
         },
         "edxThemeGithubProjectName": {
-            "value": "edx-theme"
+            "value": "edxthemes"
         },
         "edxThemeGithubBranch": {
-            "value": "{GITHUBBRANCH}"
+            "value": "master"
         },
         "ansibleGithubAccountName": {
             "value": "edx"
@@ -120,10 +120,10 @@
             "value": "master"
         },
         "edxVersion": {
-            "value": "open-release/ficus.master"
+            "value": "open-release/hawthorn.master"
         },
         "edxForumVersion": {
-            "value": "{GITHUBBRANCH}"
+            "value": "open-release/hawthorn.master"
         },
         "armTemplateRelativePath": {
             "value": "templates/stamp"
@@ -218,10 +218,10 @@
             "value": false
         },
         "comprehensiveThemingDirectory": {
-            "value": ""
+            "value": "/edx/app/edxapp/themes"
         },
         "comprehensiveThemingName": {
-            "value": ""
+            "value": "marvelblue"
         },
         "enableThirdPartyAuth": {
             "value": false
@@ -230,7 +230,7 @@
             "value": ""
         },
         "baseDomain": {
-            "value": "{CLUSTERNAME}-tm.trafficmanager.net"
+            "value": ""
         },
         "domainSeparator": {
             "value": "-"

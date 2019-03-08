@@ -16,9 +16,9 @@ ENVIRONMENT=bvt
 ##########################
 
 # the site certificate files (.crt & .key) have to be named after the BASE_URL value
-BASE_URL=bvt.oxa.microsoft.com 
-LMS_URL=lms.$BASE_URL
-CMS_URL=cms.$BASE_URL
+BASE_URL=academy.rpsconsulting.in
+LMS_URL=academy.$BASE_URL
+CMS_URL=studio.$BASE_URL
 PREVIEW_URL=preview.$BASE_URL
 
 # deployment configuration
@@ -27,7 +27,7 @@ PREVIEW_URL=preview.$BASE_URL
 TEMPLATE_TYPE=stamp # stamp|fullstack|devstack
 CLUSTERNAME={CLUSTERNAME}
 ADMIN_USER=oxaadmin
-OXA_TOOLS_VERSION=oxa/master.fic
+OXA_TOOLS_VERSION=oxa/dev.haw
 
 # config/server-vars.yml
 #YOUTUBE_API_KEY=todo
@@ -50,8 +50,8 @@ CONFIGURATION_REPO=https://github.com/Microsoft/edx-configuration.git
 CONFIGURATION_VERSION=oxa/dev.haw
 PLATFORM_REPO=https://github.com/Microsoft/edx-platform.git
 PLATFORM_VERSION=oxa/dev.haw
-THEME_REPO=https://github.com/Microsoft/edx-theme.git
-THEME_VERSION=oxa/dev.haw
+THEME_REPO=https://github.com/shivajeesharma/edxthemes.git
+THEME_VERSION=master
 EDX_VERSION=open-release/hawthorn.master
 FORUM_VERSION=oxa/dev.haw
 AZURE_MEDIA_VERSION=oxa/dev.haw
@@ -162,16 +162,16 @@ EDXAPP_IMPORT_KITCHENSINK_COURSE={EDXAPP_IMPORT_KITCHENSINK_COURSE}
 MEMCACHE_SERVER_IP=$MYSQL_MASTER_IP
 
 # Conditionally enabling Mobile Rest Api in support of MPP integration scenarios
-EDXAPP_ENABLE_OAUTH2_PROVIDER=false
-EDXAPP_ENABLE_MOBILE_REST_API=false
+EDXAPP_ENABLE_OAUTH2_PROVIDER=true
+EDXAPP_ENABLE_MOBILE_REST_API=true
 OAUTH_ENFORCE_SECURE=false
 
 # Security
 EDXAPP_ENABLE_CONNECTION_LIMITING=true
 EDXAPP_ENABLE_RATE_LIMITING=true
 
-ENABLE_LTI_PROVIDER=false
-ENABLE_AZURE_MEDIA_SERVICES_XBLOCK=false
+ENABLE_LTI_PROVIDER=true
+ENABLE_AZURE_MEDIA_SERVICES_XBLOCK=true
 
 EDXAPP_REDIRECT_IS_HTTPS=true
 EDXAPP_ENABLE_CUSTOM_AUTH=false
@@ -202,7 +202,7 @@ INSIGHTS_SECRET_KEY=
 NOTIFIER_LMS_SECRET_KEY=
 
 # Cookie Banner
-EDXAPP_ENABLE_COOKIE_CONSENT=false
+EDXAPP_ENABLE_COOKIE_CONSENT=true
 
 # Azure keyvault configs 
 EDXAPP_GET_SECRETS_FROM_AZURE_KEYVAULT=false
