@@ -51,7 +51,7 @@
             "value": "{SERVICEACCOUNTPASSWORD}"
         },
         "mysqlBackupUserName": {
-            "value": "oxamysqlbackupuser"
+            "value": "oxamysqlbkupuser"
         },
         "mysqlBackupUserPassword": {
             "value": "{SERVICEACCOUNTPASSWORD}"
